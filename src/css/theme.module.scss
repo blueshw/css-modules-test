@@ -1,0 +1,300 @@
+@import "./color.module.scss";
+
+.pink {
+  color: $pink;
+}
+.green {
+  color: $green;
+}
+.defaultGray {
+  color: $defaultGray;
+}
+.blue {
+  color: $blue;
+}
+.transparent {
+  color: $transparent;
+}
+.black {
+  color: $black;
+}
+.black02 {
+  color: $black02;
+}
+.grey00 {
+  color: $grey00;
+}
+.grey01 {
+  color: $grey01;
+}
+.grey02 {
+  color: $grey02;
+}
+.grey03 {
+  color: $grey03;
+}
+.grey04 {
+  color: $grey04;
+}
+.white {
+  color: $white;
+}
+.yellow01 {
+  color: $yellow01;
+}
+.yellow02 {
+  color: $yellow02;
+}
+.yellow03 {
+  color: $yellow03;
+}
+.yellow04 {
+  color: $yellow04;
+}
+.yellow05 {
+  color: $yellow05;
+}
+.red01 {
+  color: $red01;
+}
+.red02 {
+  color: $red02;
+}
+.red03 {
+  color: $red03;
+}
+.red04 {
+  color: $red04;
+}
+.blue01 {
+  color: $blue01;
+}
+.blue02 {
+  color: $blue02;
+}
+.lightGrey01 {
+  color: $lightGrey01;
+}
+.lightGrey02 {
+  color: $lightGrey02;
+}
+.lightGrey03 {
+  color: $lightGrey03;
+}
+.lightGrey04 {
+  color: $lightGrey04;
+}
+.lightGrey05 {
+  color: $lightGrey05;
+}
+.line01 {
+  color: $line01;
+}
+.lightYellow {
+  color: $lightYellow;
+}
+.orange {
+  color: $orange;
+}
+.whatsapp {
+  color: $whatsapp;
+}
+.dimmed {
+  color: $dimmed;
+}
+.gray02_a30 {
+  color: $gray02_a30;
+}
+.black_a30 {
+  color: $black_a30;
+}
+.black_a60 {
+  color: $black_a60;
+}
+.black_a90 {
+  color: $black_a90;
+}
+.black02_a10 {
+  color: $black02_a10;
+}
+.black02_a05 {
+  color: $black02_a05;
+}
+.black02_a08 {
+  color: $black02_a08;
+}
+.black02_a15 {
+  color: $black02_a15;
+}
+.black02_a30 {
+  color: $black02_a30;
+}
+.black02_a40 {
+  color: $black02_a40;
+}
+.black02_a50 {
+  color: $black02_a50;
+}
+.black02_a60 {
+  color: $black02_a60;
+}
+.black02_a70 {
+  color: $black02_a70;
+}
+.black02_a80 {
+  color: $black02_a80;
+}
+.black02_a85 {
+  color: $black02_a85;
+}
+.yellow01_a70 {
+  color: $yellow01_a70;
+}
+.white_a40 {
+  color: $white_a40;
+}
+.white_a50 {
+  color: $white_a50;
+}
+
+// buttons
+button.btn_transparent {
+  background-color: $transparent;
+}
+button.btn_transparent_02 {
+  background-color: $transparent;
+  &:active {
+    background-color: $lightGrey03;
+  }
+}
+button.btn_transparent_yellow01_a70 {
+  background-color: $transparent;
+  border: 1px solid $yellow01_a70;
+  border-radius: 9.5px;
+}
+button.btn_transparent_yellow01_a70_02 {
+  background-color: $transparent;
+  border: 1px solid $yellow01_a70;
+  border-radius: 11px;
+}
+button.btn_black {
+  background-color: $black;
+  border-radius: 5px;
+}
+button.btn_black_02 {
+  background-color: $black;
+  border-radius: 3px;
+}
+button.btn_black_03 {
+  background-color: $black;
+  border-radius: 24px;
+}
+button.btn_black02 {
+  background-color: $black02;
+  border-radius: 26px;
+}
+button.btn_lightGrey01 {
+  background-color: $lightGrey01;
+  border-radius: 3px;
+}
+button.btn_lightGrey03 {
+  background-color: $lightGrey03;
+  border-radius: 0px;
+  &:disabled {
+    opacity: 1;
+  }
+}
+button.btn_lightGrey03_02 {
+  background-color: $lightGrey03;
+  border-radius: 5px;
+}
+button.btn_lightGrey04 {
+  background-color: $lightGrey04;
+  border-radius: 3px;
+}
+button.btn_white_lightGrey01 {
+  background-color: $white;
+  border: 1px solid $lightGrey01;
+  border-radius: 5px;
+}
+button.btn_white_black_a30 {
+  background-color: $white;
+  border: 1px solid $black_a30;
+  border-radius: 5px;
+}
+button.btn_white_lightGrey02 {
+  background-color: $white;
+  border: 1px solid $lightGrey02;
+  border-radius: 2.5px;
+}
+button.btn_white {
+  background-color: $white;
+}
+button.btn_red04 {
+  background-color: $red04;
+  &:disabled {
+    background-color: $grey04;
+    opacity: 1;
+  }
+}
+button.btn_yellow01 {
+  background-color: $yellow01;
+  border-radius: 5px;
+  &:disabled {
+    background-color: $lightGrey01;
+    opacity: 1;
+  }
+  &:disabled > span {
+    color: $white !important;
+  }
+}
+button.btn_yellow01_02 {
+  background-color: $yellow01;
+  border-radius: 0px;
+  &:disabled {
+    background-color: $lightGrey01;
+    opacity: 1;
+  }
+  &:disabled > span {
+    color: $white !important;
+  }
+}
+button.btn_yellow01_03 {
+  background-color: $yellow01;
+  border-radius: 9.5px;
+}
+button.btn_yellow01_04 {
+  background-color: $yellow01;
+  border-radius: 3px;
+  &:disabled {
+    background-color: $lightGrey01;
+    opacity: 1;
+  }
+  &:disabled > span {
+    color: $white !important;
+  }
+}
+button.btn_whatsapp {
+  background-color: $whatsapp;
+  border-radius: 3px;
+}
+button.btn_white_google {
+  background-color: $white;
+  border: 1px solid $black02;
+  border-radius: 30px;
+}
+button.btn_blue02_facebook {
+  background-color: $blue02;
+  border: 1px solid $blue02;
+  border-radius: 30px;
+}
+button.btn_red03_email {
+  background-color: $red03;
+  border: 1px solid $red03;
+  border-radius: 30px;
+}
+button.btn_black02_apple {
+  background-color: $black02;
+  border: 1px solid $black02;
+  border-radius: 30px;
+}

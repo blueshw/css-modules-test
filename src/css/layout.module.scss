@@ -1,0 +1,67 @@
+@mixin container($index) {
+  flex-direction: column;
+  margin-top: $index * 20px;
+  padding: 0;
+  @if $index == 0 {
+    background: #999999;
+  }
+  @if $index == 1 {
+    background: #aaaaaa;
+  }
+  @if $index == 2 {
+    background: #cccccc;
+  }
+  & > div {
+    box-shadow: $index * 4 + 2px $index * 3 + 1px 5px #44444460;
+  }
+}
+
+@for $i from 0 through 2 {
+  .container_#{$i} {
+    @include container($i);
+  }
+}
+
+.wrapper_1 {
+  margin: 10px;
+  padding: 0px;
+  & > button {
+    margin: 10px;
+  }
+  background: rgba(0, 0, 0, 0.3);
+}
+.wrapper_2 {
+  margin: 5px;
+  padding: 5px;
+  & > button {
+    margin: 5px;
+  }
+  background: lightyellow;
+}
+.wrapper_3 {
+  margin: 6px;
+  padding: 10px;
+  & > button {
+    margin: 5px;
+  }
+  background: lightsalmon;
+  border-radius: 5px;
+}
+.wrapper_4 {
+  margin: 8px;
+  padding: 12px;
+  & > button {
+    margin: 5px;
+  }
+  background: lightsteelblue;
+  border-radius: 12px;
+}
+.wrapper_5 {
+  margin: 4px;
+  padding: 8px;
+  & > button {
+    margin: 5px;
+  }
+  background: lightgrey;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
